@@ -1,5 +1,6 @@
 #include <iostream>
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 #include <fftw3.h>
 #include <math.h>
 #include <cstring> // for memset
@@ -164,10 +165,35 @@ void render(SDL_Renderer *renderer, int SCALE_FACTOR, int N, float *D)
   SDL_RenderPresent(renderer);
 }
 
+// For screenshots
+void screenshot( const char* filepath, SDL_Window* window, SDL_Renderer* renderer ) 
+{
+    int w, h;
+    SDL_GetRendererOutputSize(renderer, &w, &h);
+
+    SDL_Surface* surface = SDL_CreateRGBSurfaceWithFormat(0, w, h, 32, SDL_PIXELFORMAT_RGBA32);
+    if (!surface) {
+        cerr <<  "Failed to create surface: "<< SDL_GetError() << endl;
+        return;
+    }
+
+    if (SDL_RenderReadPixels(renderer, NULL, SDL_PIXELFORMAT_RGBA32, surface->pixels, surface->pitch) != 0) {
+        cerr << "SDL_RenderReadPixels failed: " << SDL_GetError() << endl;
+        SDL_FreeSurface(surface);
+        return;
+    }
+
+    if (IMG_SavePNG(surface, filepath) != 0) {
+        cerr << "IMG_SavePNG failed: " << IMG_GetError() << endl;
+    }
+
+    SDL_FreeSurface(surface);
+}
+
 
 int main() {
 
-  const int N = 300; // Setting up 500x500 grid for an example
+  const int N = 500; // Setting up 500x500 grid for an example
   const int arraysize = N * (N + 2); // fftw uses two extra rows
 
   // Allocate arrays using fftwf_malloc
@@ -199,7 +225,7 @@ int main() {
   init_FFT(N);
 
   // Initialization of SDL
-  const int SCALE_FACTOR = 2; // This can be adjusted based on screen resolution
+  const int SCALE_FACTOR = 1; // This can be adjusted based on screen resolution
   const int SCREEN_WIDTH = N*SCALE_FACTOR;
   const int SCREEN_HEIGHT = N*SCALE_FACTOR;
   SDL_Window* window = NULL;
@@ -254,7 +280,10 @@ int main() {
     advection(N, D, D0, u, v, dt); 
     swap(D,D0);
   }
+  int i = 10;
 
+  IMG_Init(IMG_INIT_PNG);
+  screenshot("images/10_steps.png", window, renderer);
   // The main event loop
   bool run = true;
   while(run) {
@@ -269,8 +298,22 @@ int main() {
     while (SDL_PollEvent(&e)) {
       if (e.type == SDL_QUIT) run = false;
     }
+    switch (i) {
+        case 20:
+          screenshot("images/10_steps.png", window, renderer);
+          break;
+        case 100:
+          screenshot("images/100_steps.png", window, renderer);
+          break;
+        case 300:
+          screenshot("images/300_steps.png", window, renderer);
+          break;
+        case 500:
+          screenshot("images/500_steps.png", window, renderer);
+          break;
+    }
+    i++;
   }
-  cout << D[0] << endl;
 
   // Deinitialize SDL
   SDL_DestroyRenderer(renderer);

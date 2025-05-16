@@ -91,7 +91,7 @@ your results. The emphasis on an ideal report is explaining the algorithm well (
 results), but a limited report is better than no report.
 
 \section{Introduction}
-This project studies an implementation of fluid flow simulation developed by Jos Stam \citep{}.
+This project studies an implementation of fluid flow simulation developed by Jos Stam %\citep{}.
 (trading off accuracy for stability and efficiency)
 
 \section{Methods}
@@ -108,10 +108,18 @@ Two sets of $N\times N$ grids are allocated.
 The first stores the initial values at the beginning of an iteration whereas the updated values are stored in the second set of grids.
 On the next iteration the roles are swapped; what was the second set of grids now functions as the set of initial values and the updated values are stored into the first set of grids.
 
-Fluid flow solver used here is a slightly altered version of the code from Stam's paper \citep{}.
+Fluid flow solver used here is a slightly altered version of the code from Stam's paper %\citep{}.
 
 
 \section{Results}
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=8em]{run/images/10_steps.png}
+  \includegraphics[width=8em]{run/images/100_steps.png}
+  \includegraphics[width=8em]{run/images/300_steps.png}
+  \includegraphics[width=8em]{run/images/500_steps.png}
+  \caption{}
+\end{figure}
 
 \section{Conclusions}
 
