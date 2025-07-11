@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.26)  16 MAY 2025 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.26)  17 JUN 2025 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,41 +776,82 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 \tcb@lowerfitdim=\dimen310
 \tcb@upperfitdim=\dimen311
 \tcb@cur@hbadness=\count345
-)) (./report.aux)
+)) (/usr/share/texmf-dist/tex/latex/clara/clara.sty
+Package: clara 2019/12/24 (autoinst) Style file for Clara.
+
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
+)
+\XKV@depth=\count346
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+LaTeX Font Info:    Trying to load font information for OT1+Clara-TLF on input 
+line 89.
+
+(/usr/share/texmf-dist/tex/latex/clara/OT1Clara-TLF.fd
+File: OT1Clara-TLF.fd 2019/12/24 (autoinst) Font definitions for OT1/Clara-TLF.
+
+)
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/m/n' aliased to
+(Font)              `OT1/Clara-TLF/regular/n' on input line 89.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 89.
+ (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
-* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=430.00462pt
-* \textheight=556.47656pt
-* \oddsidemargin=19.8752pt
-* \evensidemargin=19.8752pt
-* \topmargin=-13.87262pt
+* h-part:(L,W,R)=(71.13188pt, 455.24408pt, 71.13191pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78307pt, 85.35828pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24408pt
+* \textheight=702.78307pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -830,17 +871,17 @@ LaTeX Font Info:    ... okay on input line 84.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
+\scratchcounter=\count347
 \scratchdimen=\dimen312
 \scratchbox=\box92
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count349
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count350
 \MPscratchDim=\dimen313
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -850,17 +891,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count352
+\c@lstlisting=\count353
 
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 84.
+luatex=false on input line 89.
 
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 84.
+ input line 89.
 
 (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -874,34 +915,124 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
-
+\c@mv@tabular=\count354
+\c@mv@boldtabular=\count355
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 20.74pt on input line 91.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/bold/n' will be
+(Font)              scaled to size 20.74pt on input line 91.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 93.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/sc' will be
+(Font)              scaled to size 14.4pt on input line 93.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 96.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 111.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 111.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 128
+.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 128
+.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-! Undefined control sequence.
-l.111 ...sion of the code from Stam's paper \citep
-                                                  {}.
-? 
-! Emergency stop.
-l.111 
-      
-End of file on the terminal!
 
- 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/clara/a_vzapqb.enc}{/usr/share/texmf-dist/fonts/enc/dvips/clara/a_2l
+oy6v.enc}{/usr/share/texmf-dist/fonts/enc/dvips/clara/a_ylukkp.enc}]
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 174.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 174.
+LaTeX Font Info:    Font shape `OT1/Clara-TLF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 174.
+
+
+[2]
+
+[3]
+<run/images/20_steps.png, id=26, 501.875pt x 501.875pt>
+File: run/images/20_steps.png Graphic file (type png)
+<use run/images/20_steps.png>
+Package pdftex.def Info: run/images/20_steps.png  used on input line 252.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/100_steps.png, id=28, 501.875pt x 501.875pt>
+File: run/images/100_steps.png Graphic file (type png)
+<use run/images/100_steps.png>
+Package pdftex.def Info: run/images/100_steps.png  used on input line 253.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/300_steps.png, id=29, 501.875pt x 501.875pt>
+File: run/images/300_steps.png Graphic file (type png)
+<use run/images/300_steps.png>
+Package pdftex.def Info: run/images/300_steps.png  used on input line 254.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/500_steps.png, id=30, 501.875pt x 501.875pt>
+File: run/images/500_steps.png Graphic file (type png)
+<use run/images/500_steps.png>
+Package pdftex.def Info: run/images/500_steps.png  used on input line 255.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/20_Steps.png, id=31, 501.875pt x 501.875pt>
+File: run/images/20_Steps.png Graphic file (type png)
+<use run/images/20_Steps.png>
+Package pdftex.def Info: run/images/20_Steps.png  used on input line 274.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/100_Steps.png, id=32, 501.875pt x 501.875pt>
+File: run/images/100_Steps.png Graphic file (type png)
+<use run/images/100_Steps.png>
+Package pdftex.def Info: run/images/100_Steps.png  used on input line 275.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/300_Steps.png, id=33, 501.875pt x 501.875pt>
+File: run/images/300_Steps.png Graphic file (type png)
+<use run/images/300_Steps.png>
+Package pdftex.def Info: run/images/300_Steps.png  used on input line 276.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+<run/images/500_Steps.png, id=34, 501.875pt x 501.875pt>
+File: run/images/500_Steps.png Graphic file (type png)
+<use run/images/500_Steps.png>
+Package pdftex.def Info: run/images/500_Steps.png  used on input line 277.
+(pdftex.def)             Requested size: 110.39996pt x 110.39752pt.
+
+
+[4 <./run/images/20_steps.png> <./run/images/100_steps.png> <./run/images/300_s
+teps.png> <./run/images/500_steps.png> <./run/images/20_Steps.png> <./run/image
+s/100_Steps.png> <./run/images/300_Steps.png> <./run/images/500_Steps.png>]
+
+[5] (./report.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 26958 strings out of 474560
- 576081 string characters out of 5750494
- 1025619 words of memory out of 5000000
- 49526 multiletter control sequences out of 15000+600000
- 565016 words of font info for 59 fonts, out of 8000000 for 9000
+ 27584 strings out of 474560
+ 588672 string characters out of 5750494
+ 1044362 words of memory out of 5000000
+ 50112 multiletter control sequences out of 15000+600000
+ 574038 words of font info for 81 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 98i,10n,105p,449b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 98i,9n,105p,449b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/clara/ClaraBold.pfb></usr/share/tex
+mf-dist/fonts/type1/public/clara/ClaraRegular.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb>
+Output written on report.pdf (5 pages, 514731 bytes).
+PDF statistics:
+ 96 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+
