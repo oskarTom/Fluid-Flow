@@ -101,34 +101,6 @@ Another scenario applies a leftward force to a central region:
 - Increasing viscosity causes the fluid to stabilize quickly.
 - Decreasing viscosity enhances instability and vortex formation.
 
-## Project Structure
-
-```
-Fluid-Flow/
-├── .gitignore
-├── README.md
-├── report.pdf
-├── report.tex
-├── run/
-│   └── images/
-│       ├── 10_steps.png
-│       ├── 20_steps.png
-│       ├── 30_steps.png
-│       ├── 70_steps.png
-│       ├── 100_steps.png
-│       ├── 120_steps.png
-│       ├── 300_steps.png
-│       ├── 500_steps.png
-│       ├── 20_Steps.png
-│       ├── 100_Steps.png
-│       ├── 300_Steps.png
-│       └── 500_Steps.png
-├── src/
-│   ├── Makefile
-│   ├── fluid_flow.cpp
-│   ├── README.MD
-│   └── run
-```
 
 ## References
 
