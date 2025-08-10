@@ -11,7 +11,6 @@ The simulation and visualization are written in C++, with SDL2 for graphical out
 - [Implementation](#implementation)
 - [Usage](#usage)
 - [Results](#results)
-- [Project Structure](#project-structure)
 - [References](#references)
 
 ---
