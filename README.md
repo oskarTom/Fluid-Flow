@@ -1,7 +1,7 @@
 # Fluid Flow Simulation
 
 This project implements a real-time 2D fluid flow simulation using a well-known method developed by Jos Stam. 
-The simulation and visualization are written in C++, utilizing SDL2 for graphical output.
+The simulation and visualization are written in C++, with SDL2 for graphical output.
 
 ## Table of Contents
 
